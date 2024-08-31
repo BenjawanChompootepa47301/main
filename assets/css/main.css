@@ -359,7 +359,7 @@ h6 {
   }
 
   .navmenu ul {
-    
+    display: none;
     list-style: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
@@ -1811,6 +1811,35 @@ section,
   scale: 1.04;
 }
 
+@media (max-width: 1000px){
+  .box-detail{
+    flex-direction: column;
+    margin: 0 2px;
+  }
 
+
+  
+  .text-about{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .text-about h3{
+    font-weight: 800;
+  }
+  
+  .img-about{
+    width: 100%;
+  }
+  
+  .img-about img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .box-about{
+    margin: 0 2rem;
+  }
+}
 
 
